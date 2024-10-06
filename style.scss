@@ -1,0 +1,151 @@
+//Fonts--------------
+h1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: calc(1rem + min(90px, 15vw));
+        font-weight: 900;
+        letter-spacing: -.175ch;
+        line-height: 1;
+        color:rgb(255, 119, 0);
+        -webkit-text-stroke: 5px black;
+        text-shadow: 10px 10px black;
+        margin: 10px 0 10px 0;
+
+}
+
+h3 {
+    margin: 2px 0 5px 0;
+    color:rgba(9, 174, 9, 1);
+
+}
+
+
+//style------------------
+.paint-order {
+    paint-order: stroke fill;
+} 
+
+.hidden {
+    visibility: hidden;
+  }
+  
+  .amazon-link {
+    color: orange; 
+    font-weight: bold;
+  }
+
+  input{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border:solid 1px purple;
+    background-color: black;
+    color: white;
+  }
+  #newcolor {
+    background:radial-gradient(circle, rgba(90,4,90,1) 0%, rgba(225,65,20,1) 50%, rgba(9,174,9,1) 100%);
+    display:none;
+  }
+
+// sections--------------
+
+body {
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle, rgba(9, 174, 9, 1) 0%, rgba(90, 4, 90, 1) 100%);
+}
+
+main {
+    margin: 0;
+    width: 950px;
+    height: auto;
+}
+
+.cont{
+    margin: 50px 0 0 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin: 30px 0 0 0;
+    border-bottom:solid  5px rgb(255, 119, 0);
+    border-top:solid  5px rgb(255, 119, 0);
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(255, 119, 0);
+        text-align: center;
+}
+    
+}
+
+// card-------------------
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 20px;
+    width: 270px;
+    height: 390px;
+    border:solid 3px purple;
+    border-radius: 10%;
+
+    p {
+        margin: 0;
+        text-align: center;
+        color: purple;
+    
+    }
+    
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.product {
+    width: 200px;
+    height: 250px;
+    margin: 5px 0 0 0;
+    object-fit: cover;
+    border: solid 3px rgb(255, 119, 0);
+    border-radius: 10%;
+  
+}
+
+// buttons
+button{
+    margin: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color:rgba(9, 174, 9, 1);
+    border: solid 2px rgb(255, 119, 0);
+    border-radius: 10px;
+}
+.price{
+    margin: 5px;
+    width:80px;
+    height: 50px;
+    color:rgba(9, 174, 9, 1);
+    background-color:rgb(255, 119, 0);
+    font-size: 20px;
+    border: solid 1px rgba(9, 174, 9, 1);
+}
+button:hover{
+    cursor: pointer;
+}
